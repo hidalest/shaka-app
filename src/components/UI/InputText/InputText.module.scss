@@ -1,0 +1,57 @@
+@import '../../../sassStyles/variables';
+
+.inputText {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  & label {
+    font-size: 1.5rem;
+    color: $grey-2;
+  }
+  & input {
+    border: none;
+    border: 2px solid rgba($color: $grey-1, $alpha: 0.4);
+    border-radius: 5px;
+    padding: 1rem 0.8rem;
+    margin: 0.5rem 0;
+
+    &.invalid {
+      border-color: red;
+    }
+
+    &:focus {
+      outline: 2.5px solid;
+      outline-color: $yellow-2;
+    }
+  }
+
+  & .btnShowPassword {
+    all: unset;
+    position: absolute;
+    right: 1rem;
+    top: 3.2rem;
+    color: rgba($color: $grey-2, $alpha: 0.1);
+    cursor: pointer;
+    transition: all 200ms ease-out;
+
+    &:hover {
+      color: rgba($color: $grey-2, $alpha: 0.4);
+    }
+  }
+
+  .password-requirement-group {
+    & > * {
+      display: inline-block;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.5rem 0;
+
+    & span:nth-child(1) {
+      margin-right: 0.5rem;
+      color: $grey-2;
+    }
+  }
+}

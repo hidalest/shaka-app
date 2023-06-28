@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & h1 {
+    display: flex;
+    align-items: center;
+    & > div {
+      margin-left: 1rem;
+    }
+  }
+
+  & .btnTheme {
+    all: unset;
+    cursor: pointer;
+  }
+}

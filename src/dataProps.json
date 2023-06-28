@@ -1,0 +1,43 @@
+{
+    "headerProps": {
+        "title": "Shaka",
+        "google_dark_icon": "dark_mode",
+        "google_light_icon": "light_mode"
+    },
+    "loginProps": {
+        "signIn": {
+            "mainHeader": "Welcome Back",
+            "mainHeaderInstructions": "Welcome back! Please enter your details."
+        },
+        "logInForm": {
+            "emailLabel": "Email",
+            "emailPlaceholder": "Enter your email",
+            "passwordLabel": "Password",
+            "passwordPlaceholder": "Enter your password",
+            "remembermeBtn": "Remember for 30 days",
+            "forgotPasswordBtn": "Forgot Password?",
+            "signInBtn": "Sign in",
+            "signupInstructions": "Don't have an account?",
+            "signupBtn": "Sign up here"
+        }
+    },
+    "signupProps": {
+        "signup": {
+            "mainHeader": "Register",
+            "mainHeaderInstructions": "Hello. Please enter your information bellow"
+        },
+        "signupForm": {
+            "nameLabel": "Full Name",
+            "namePlaceholder": "Enter your full name",
+            "emailLabel": "Email",
+            "emailPlaceholder": "Enter your email",
+            "passwordLabel": "Password",
+            "passwordPlaceholder": "Enter your password",
+            "dateOfBirthLabel": "Date Of Birth",
+            "dateOfBirthPlaceholder": "Enter your Birth Date",
+            "signupBtn": "Sign up",
+            "signInInstructions": "Already Have an Account?",
+            "signInBtn": "Sign in"
+        }
+    }
+}

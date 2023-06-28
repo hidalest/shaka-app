@@ -1,0 +1,67 @@
+@import '../../../sassStyles/variables';
+
+.logo {
+  position: relative;
+
+  &.small {
+    width: 3rem;
+    height: 3rem;
+  }
+  &.medium {
+    width: 8rem;
+    height: 8rem;
+  }
+  &.large {
+    width: 12rem;
+    height: 12rem;
+  }
+  &.free {
+    min-width: 5rem;
+    min-height: 5rem;
+    width: 100%;
+    height: 100%;
+  }
+
+  & .first-half {
+    content: 'asd';
+    position: absolute;
+    background: #fffbd5; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to bottom,
+      #b20a2c,
+      #fffbd5
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to bottom,
+      #b20a2c,
+      #fffbd5
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 50%;
+    height: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+  }
+
+  & .blurr {
+    content: 'asd';
+    position: absolute;
+    background-color: $yellow-2;
+    width: 100%;
+    height: 50%;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0 0 5rem 5rem;
+    background: rgba(255, 255, 255, 0);
+    // box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+  }
+
+  &.small .blurr {
+    backdrop-filter: blur(6px);
+  }
+}

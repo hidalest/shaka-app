@@ -1,0 +1,36 @@
+@import '../../../../sassStyles/variables';
+
+.loginForm {
+  &--input {
+    margin-bottom: 2rem;
+  }
+
+  & .form--group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+
+    & .goToSignin {
+      all: unset;
+      text-decoration: none;
+      cursor: pointer;
+      color: $yellow-4;
+      transition: all 200ms ease-out;
+
+      &:hover {
+        color: $yellow-4;
+        transition: all 200ms ease-out;
+      }
+    }
+
+    & .checkboxGroup {
+      display: flex;
+      align-items: center;
+
+      p {
+        margin-right: 1rem;
+      }
+    }
+  }
+}
